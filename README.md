@@ -8,6 +8,12 @@ A base for frontend cf models to extend
 
 ## Usage
 
+```js
+// Extend BaseModel like you would Backbone.Model
+var BaseModel = require('cf-base-model')
+module.exports = BaseModel.extend({ /* ... */ })
+```
+
 ## Credits
 Built by developers at [Clock](http://clock.co.uk).
 
