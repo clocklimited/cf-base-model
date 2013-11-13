@@ -11,7 +11,7 @@
   "publishConfig": {
     "registry": "http://npm.clockte.ch"
   },
-  "main": "",
+  "main": "base-model.js",
   "scripts": {
     "lint": "./node_modules/.bin/jshint . --reporter=./node_modules/jshint-full-path/index.js",
     "pretest": "npm run-script lint",
@@ -22,12 +22,16 @@
   "engines": {
     "node": ">=0.8"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash.clonedeep": "~2.3.0"
+  },
   "devDependencies": {
     "mocha": "1",
     "should": "2",
     "istanbul": "0",
     "jshint": "2",
-    "jshint-full-path": "0"
+    "jshint-full-path": "0",
+    "backbone": "~1.1.0",
+    "schemata": "0.0.8"
   }
 }
