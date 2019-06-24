@@ -1,5 +1,7 @@
 # cf-base-model
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clocklimited/cf-base-model.svg)](https://greenkeeper.io/)
+
 A base for frontend cf models to extend
 
 ## Installation
