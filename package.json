@@ -23,15 +23,15 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "lodash.clonedeep": "~2.3.0"
+    "lodash.clonedeep": "~4.5.0"
   },
   "devDependencies": {
-    "mocha": "1",
-    "should": "2",
+    "mocha": "^6.1.4",
+    "should": "^13.2.3",
     "istanbul": "0",
     "jshint": "2",
-    "jshint-full-path": "0",
-    "backbone": "~1.1.0",
-    "schemata": "0.0.8"
+    "jshint-full-path": "^1.1.1",
+    "backbone": "~1.4.0",
+    "schemata": "7.0.1"
   }
 }
